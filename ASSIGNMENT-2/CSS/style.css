@@ -1,0 +1,122 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set styles for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Define custom fonts using @font-face */
+  @font-face {
+    font-family: 'Sunshine';
+    src: url('../font1/sunshine_10/Sunshine.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'love';
+    src: url('../font1/Mylove-18407212/MyloveScript.ttf') format('truetype');
+  }
+  
+  /* Style for the elements with .parx class */
+  .parx {
+    color: #ff1900; /* Reddish Tone for anger */
+    font-family: 'Dela Gothic One', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+  }
+  
+  /* Styles for elements with .pary class */
+  .pary {
+    color: #949494; /* A dull gray color to show sadness and dullness */
+    text-decoration: line-through; /* Adds a strikethrough effect for a distressed look */
+    font-size: 36px;
+  }
+  
+  /* Styles for the lyrics container */
+  .lyrics {
+    padding: 20px;
+    background-color: #88a6eb;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+    font-family: "Sunshine", sans-serif;
+    font-size: 26px;
+  }
+  
+  /* Styles for the song title (h1) */
+  h1 {
+    color: #ab00c2;
+    border: 2px solid #ccc;
+    background-color: #ff7ce5;
+    border-radius: 10px;
+    font-size: 36px;
+    margin: 50px auto;
+    max-width: 800px;
+    font-family: "love", sans-serif;
+    box-shadow:
+      0 0 10px #0206f8,
+      0 0 5px #ffa200;
+  }
+  
+  /* Styles for left and right columns */
+  .left-column {
+    width: 45%;
+    padding: 20px;
+  }
+  
+  .right-column {
+    padding: 20px 20px;
+    text-align: right;
+  }
+  
+  /* Styles for elements within .verse5 with .par class */
+  .verse5 .par {
+    color: #333; /* A dark gray color for a regretful tone */
+    font-family: Georgia, 'Times New Roman', Times, serif, serif; /* A more traditional and somber font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow effect */
+    font-style: italic; /* Italicize the text for a reflective feel */
+  }
+  
+  /* Styles for elements with .heat class */
+  .heat {
+    color: #ff1900; /* Reddish Tone for anger */
+    text-shadow: 2px 2px 4px rgba(255, 225, 0, 0.9);
+    font-size: 29px;
+  }
+  
+  /* Styles for elements with .parv class */
+  .parv {
+    font-family: 'love', Times, serif;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* Adds a subtle shadow effect */
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  /* Styles for .verse7 elements and span within .verse7 */
+  .verse7 {
+    color: #00008B;
+  }
+  
+  .verse7 span {
+    color: #8B0000;
+  }
+  
+  /* Styles for .pars and .parw classes */
+  .pars {
+    color: #00008B;
+    text-decoration: wavy;
+  }
+  
+  .parw {
+    color: #8B0000;
+    text-decoration: wavy;
+  }
+  
